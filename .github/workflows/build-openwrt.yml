@@ -10,14 +10,12 @@ name:  OpenWrtFoxK2P多拨v1.0.0
 
 on: 
   release:
-    types: [published]
-    
+    types: [published]  
   push:
     branches: 
       - master
     paths:
       - '.config'
-
 #  schedule:
 #    - cron: 0 8 * * 5
   #watch:
