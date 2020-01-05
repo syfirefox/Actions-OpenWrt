@@ -6,22 +6,23 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name:  OpenWrtFoxK2P多拨简约版v1.0.0
+name:  OpenWrtFoxK2P多拨v1.0.0
 
 on: 
   release:
     types: [published]
+    
   push:
     branches: 
       - master
     paths:
       - '.config'
 
-
 #  schedule:
 #    - cron: 0 8 * * 5
   #watch:
    #types: [started]
+ 
 jobs:
   build:
     runs-on: ubuntu-18.04
